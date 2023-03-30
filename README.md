@@ -1,11 +1,13 @@
 ## HOW TO CLONE AND RUN TESTS
 1. Clone the repository
 2. Open cloned repository in your IDE
-3. Install cypress using command `npm install cypress --save-dev`
-4. Run cypress using command `npx cypress open`
-5. In opened browser window click "e2e testing" card
-6. Click "Start e2e testing in Chrome" button
-7. Click "callForm.cy.js" file
+3. Run `npm init`
+4. Run `npm install typescript --save-dev`
+5. Install cypress using command `npm install cypress --save-dev`
+6. Run cypress using command `npx cypress open`
+7. In opened browser window click "e2e testing" card
+8. Click "Start e2e testing in Chrome" button
+9. Click "callForm.cy.js" file
 
 ## FILES AND FOLDERS
 1. cypress/E2E/callForm.cy.js - main file with tests
