@@ -1,5 +1,5 @@
 export class PageObject {
-    url = "/";
+    url = '/';
 
     visit(url?: string): void {
         cy.visit(url || this.url);

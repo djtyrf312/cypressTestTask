@@ -1,5 +1,10 @@
-import {CallReasonOptions, CallTypeOptions, PhoneNumberOptions, ResultTypeOptions} from "./callForm.typedefs";
-import {callFormFieldIds} from "./constants";
+import {
+    CallReasonOptions,
+    CallTypeOptions,
+    PhoneNumberOptions,
+    ResultTypeOptions
+} from './callForm.typedefs';
+import {callFormFieldIds} from './constants';
 
 export class CallForm {
     getCallType(): Cypress.Chainable<JQuery<HTMLElement>> {

@@ -1,12 +1,12 @@
-import {PageObject} from '../support/pageObject';
-import {CallForm} from '../support/testData/callForm';
+import { PageObject } from '../support/pageObject';
+import { CallForm } from '../support/testData/callForm';
 import {
   CallReasonOptions,
   CallTypeOptions,
   PhoneNumberOptions,
   ResultTypeOptions
-} from "../support/testData/callForm.typedefs";
-import {callFormFieldIds, generateRandomString} from "../support/testData/constants";
+} from '../support/testData/callForm.typedefs';
+import { callFormFieldIds, generateRandomString } from '../support/testData/constants';
 
 const mainPage = new PageObject();
 const callForm = new CallForm();
