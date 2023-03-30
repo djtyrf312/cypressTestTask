@@ -1,5 +1,5 @@
 ## HOW TO CLONE AND RUN TESTS
-1. Clone...
+1. Clone the repository
 2. Open cloned repository in your IDE
 3. Install cypress using command `npm install cypress --save-dev`
 4. Run cypress using command `npx cypress open`
